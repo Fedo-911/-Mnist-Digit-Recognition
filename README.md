@@ -61,6 +61,22 @@ mnist-digit-recognition/
 └── app_screenshot.png
 
 
+## 🧪 Model Training
+
+The model was trained using a Convolutional Neural Network (CNN) on the MNIST dataset using TensorFlow.
+
+You can view or run the full training notebook here:  
+📓 [mnist_train.ipynb](notebooks/mnist_train.ipynb)
+
+
+
+### Training Summary:
+- Input: 28x28 grayscale images
+- Layers: 2 Conv2D + MaxPooling, Flatten, Dense(64), Output(Softmax)
+- Epochs: 5
+- Accuracy: ~99% train, ~98% test
+- Output: `mnist_model.h5` (used in the Streamlit app)
+
 
 
 ## 📷 Example
